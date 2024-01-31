@@ -9,14 +9,14 @@ svg {
   transition: transform 0.5s ease;
 }
 
-#monochrome {
-  filter: grayscale(100%);
+img {
   cursor: pointer;
 }
 
 path:nth-child(1) {
   transition: 0.4s;
   cursor: pointer; 
+  fill: #FA5454;
 }
 
 path:nth-child(1):hover {
@@ -27,7 +27,7 @@ path:nth-child(1):hover {
 path:nth-child(2) {
   transition: 0.4s;
   cursor: pointer; 
-  fill: goldenrod;
+  fill: #daa520;
 }
 
 path:nth-child(2):hover {
@@ -37,6 +37,7 @@ path:nth-child(2):hover {
 path:nth-child(3) {
   transition: 0.4s;
   cursor: pointer; 
+  fill: #19CB0A;
 }
 
 path:nth-child(3):hover {
@@ -46,6 +47,7 @@ path:nth-child(3):hover {
 path:nth-child(4) {
   transition: 0.4s;
   cursor: pointer; 
+  fill: #0A7ACB
 }
 
 path:nth-child(4):hover {
